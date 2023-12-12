@@ -1,6 +1,47 @@
+header {
+    background-color: #AFC8AD;
+}
+
+.nav-pills .nav-link {
+    color: #fff;
+}
+
+.nav-pills .nav-link.active {
+    background-color: #fff;
+    color: #3498db;
+}
+
+#perfil {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.btn-primary {
+    --bs-btn-color: #88AB8E;
+    --bs-btn-bg: #EEE7DA;
+    --bs-btn-border-color: #EEE7DA;
+    --bs-btn-hover-color: #AFC8AD;
+    --bs-btn-hover-bg: #F2F1EB;
+    --bs-btn-hover-border-color: #F2F1EB;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #EEE7DA;
+    --bs-btn-active-border-color: #EEE7DA;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #EEE7DA;
+    --bs-btn-disabled-border-color: #EEE7DA;
+}
+
 #foto-perfil {
     border-radius: 50%;
 }
+
+.bg-body-secondary {
+    --bs-bg-opacity: 1;
+    background-color: transparent !important;
+  }
 
 #proyecto1 {
     background-image: url('assets/perfil.JPG');
