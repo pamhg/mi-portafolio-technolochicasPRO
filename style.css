@@ -44,5 +44,44 @@ header {
   }
 
 #proyecto1 {
-    background-image: url('assets/perfil.JPG');
+    background-image: url('assets/google.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+#proyecto2 {
+    background-image: url('assets/pagina.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#proyecto3 {
+    background-image: url('assets/dino.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-bg-dark {
+    color: #AFC8AD !important;
+    background-color: RGBA(var(--bs-dark-rgb),var(--bs-bg-opacity,1)) !important;
+  }
+
+  .text-white {
+    --bs-text-opacity: 1;
+    color: #AFC8AD !important;
+  }
